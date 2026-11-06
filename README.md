@@ -2,6 +2,8 @@
 
 A Claude skill that runs a full pre-send QA on a Marketo email. It fetches the email from Marketo, checks the HTML (UTMs, links, alt text, file size, spam keywords, Velocity tokens), reviews copy against your brand guidelines, sends the email to Email on Acid for rendering and optional spam tests, and returns a QA report with a PASS / WARN / BLOCK verdict.
 
+▶️ [Watch the video walkthrough](https://youtu.be/9hzUyzFTiYQ)
+
 ## Setup
 
 1. Connect the MCP servers the skill uses:
